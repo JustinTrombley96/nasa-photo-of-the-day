@@ -21,11 +21,13 @@ function App() {
 
   return (
     <div className="App">
+    <Container fixed>
       {/* <Navbar />
       <Header /> */}
       <Photo />
       <Description />
       {/* <Permissions /> */}
+      </Container>
 
     </div>
   );
