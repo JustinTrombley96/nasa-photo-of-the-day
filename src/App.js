@@ -3,7 +3,7 @@ import "./App.css";
 // import Navbar from './components/Navbar'
 // import Header from './components/Header'
 import Photo from './components/Photo'
-// import Description from './components/Description'
+import Description from './components/Description'
 
 function App() {
 
@@ -24,8 +24,8 @@ function App() {
       {/* <Navbar />
       <Header /> */}
       <Photo />
-      {/* <Description />
-      <Permissions /> */}
+      <Description />
+      {/* <Permissions /> */}
 
     </div>
   );
