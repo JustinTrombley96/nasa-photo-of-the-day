@@ -4,6 +4,7 @@ import "./App.css";
 // import Header from './components/Header'
 import Photo from './components/Photo'
 import Description from './components/Description'
+import { Container } from '@material-ui/core'
 
 function App() {
 

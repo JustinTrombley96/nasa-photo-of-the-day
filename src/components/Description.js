@@ -8,7 +8,7 @@ function Description() {
     const [nasaDescription, setNasaDescription] = useState("")
     useEffect(() => {
         axios
-        .get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+        .get('https://api.nasa.gov/planetary/apod?api_key=1hliEghmtffq93NG8ff70Jb6ZBcjDOGNypk3tOU4')
         .then(res => setNasaDescription(res.data))
     }, [])
 
