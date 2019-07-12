@@ -4,6 +4,7 @@ import "./App.css";
 // import Header from './components/Header'
 import Photo from './components/Photo'
 import Description from './components/Description'
+import { Container } from '@material-ui/core'
 
 function App() {
 
@@ -21,11 +22,13 @@ function App() {
 
   return (
     <div className="App">
+    <Container fixed>
       {/* <Navbar />
       <Header /> */}
       <Photo />
       <Description />
       {/* <Permissions /> */}
+      </Container>
 
     </div>
   );
